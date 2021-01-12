@@ -17,3 +17,13 @@ build
 #My configuration:
 db.ini
 deploy_key_rsa
+
+#排除所有.开头的隐藏文件:
+.*
+
+#排除所有.class 文件：
+*.class
+
+#不排除.gitignore和hello.class:
+!.gitignore
+!hello.class
